@@ -90,7 +90,7 @@ const UserForm = () => {
         />
 
         <button className="btn btn-success me-2" onClick={handleSubmit}>
-          {editIndex !== null ? "Save Changes" : "Submit"}
+          {editIndex !== null ? "Update Changes" : "Submit"}
         </button>
 
         {editIndex !== null && (
@@ -114,7 +114,7 @@ const UserForm = () => {
                 className="btn btn-primary me-2"
                 onClick={() => handleEdit(index)}
               >
-                Update
+               Edit
               </button>
 
               <button
